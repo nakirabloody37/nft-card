@@ -1,6 +1,16 @@
 /*sec DESIGN FRAMEWORK */
 
 :root {
+  /*sys PRIMARY COLORS */
+
+  --blue-500: #8bacda;
+  --cyan-400: #00fff7;
+
+  /*sys NEUTRAL */
+  --blue-950: #0d192b;
+  --blue-900: #14253d;
+  --blue-800: #2f415b;
+
   /* sys Font Sizes */
 
   --text-3: 0.75rem;
