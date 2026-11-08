@@ -62,3 +62,13 @@ body {
 }
 
 /*sec NFT CARD */
+
+.nft-card {
+  max-width: calc(360rem / 16);
+  padding: var(--space-8);
+  background-color: var(--blue-900);
+}
+
+.nft-image {
+  width: 100%;
+}
