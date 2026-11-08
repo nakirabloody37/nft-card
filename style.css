@@ -103,10 +103,6 @@ body {
   left: 0;
 }
 
-.image-box:hover::after {
-  opacity: 1;
-}
-
 .nft-image {
   /*r: This is here because you had extra height in div cuz images are inline elements and behave kinda like a text. remember to check this out more later. */
   display: block;
@@ -172,11 +168,6 @@ body {
   cursor: pointer;
 }
 
-.heading-primary:hover,
-.creator-name:hover {
-  color: var(--cyan-400);
-}
-
 @media (min-width: 33.75em) {
   html {
     font-size: 100%;
@@ -186,5 +177,16 @@ body {
     box-shadow:
       0 0 0 var(--space-10) rgb(20, 37, 61, 0.9),
       0 0 0 var(--space-5) var(--cyan-400);
+  }
+}
+
+@media (hover: hover) {
+  .heading-primary:hover,
+  .creator-name:hover {
+    color: var(--cyan-400);
+  }
+
+  .image-box:hover::after {
+    opacity: 1;
   }
 }
