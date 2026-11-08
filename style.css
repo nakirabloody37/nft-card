@@ -87,6 +87,7 @@ body {
   overflow: hidden;
 }
 
+/* remember the opacity trick, opacity a smooth transition property */
 .image-box::after {
   content: "";
   width: 100%;
