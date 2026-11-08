@@ -131,3 +131,9 @@ body {
 .creator-name {
   color: #fff;
 }
+
+@media (min-width: 23.75em) {
+  html {
+    font-size: 100%;
+  }
+}
