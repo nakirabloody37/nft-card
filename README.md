@@ -10,12 +10,12 @@ An NFT card preview component built with HTML & CSS
 
 ### Screenshot
 
-![Screenshot]()
+![Screenshot](nft-card-screenshot.png)
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Solution URL: [Solution](https://github.com/nakirabloody37/nft-card)
+- Live Site URL: [Live site](https://nakirabloody37.github.io/nft-card/)
 
 ### Built with
 
