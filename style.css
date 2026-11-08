@@ -79,10 +79,32 @@ body {
   border-radius: 13px;
 }
 
-.nft-image {
-  width: 100%;
-  border-radius: 7px;
+.image-box {
   margin-bottom: var(--space-5);
+  border-radius: 7px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.image-box:hover:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgb(0, 255, 247, 50%);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nft-image {
+  /*r: This is here because you had extra height in div cuz images are inline elements and behave kinda like a text. remember to check this out more later. */
+  display: block;
+  width: 100%;
 }
 
 .heading-primary {
