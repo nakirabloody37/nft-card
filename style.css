@@ -130,6 +130,7 @@ body {
 
 .creator-text {
   font-size: var(--text-4);
+  font-weight: 300;
 }
 
 .creator-name {
