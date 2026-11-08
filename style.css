@@ -86,3 +86,19 @@ body {
   color: #fff;
   margin-bottom: var(--space-3);
 }
+
+.nft-description {
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-8);
+}
+
+.card-price {
+  color: var(--cyan-400);
+  font-weight: 600;
+}
