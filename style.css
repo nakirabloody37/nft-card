@@ -56,6 +56,10 @@
 }
 
 body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
   font-size: var(--text-4p2);
   font-family: "Outfit", sans-serif;
   background-color: var(--blue-950);
