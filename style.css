@@ -95,7 +95,7 @@ body {
 .card-info {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-5);
 }
 
 .card-price,
@@ -108,4 +108,22 @@ body {
 .card-price {
   color: var(--cyan-400);
   font-weight: 600;
+}
+
+.nft-creator {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--blue-800);
+}
+
+.jules-image {
+  width: var(--space-8);
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.creator-name {
+  color: #fff;
 }
